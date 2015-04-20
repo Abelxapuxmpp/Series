@@ -1,5 +1,6 @@
 package mx.leonet.materialdesignv4;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -23,7 +24,10 @@ public class main extends ActionBarActivity {
 
     public void add(View v)
     {
-        Toast.makeText(this,"Estoy escuchando",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this,"Estoy escuchando",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this,movies.class);
+        startActivity(intent);
+
     }
 
     @Override

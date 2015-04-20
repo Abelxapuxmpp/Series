@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".movies"
+            android:label="@string/title_activity_movies" >
+        </activity>
     </application>
 
 </manifest>
