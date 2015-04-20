@@ -5,7 +5,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import android.view.View;
+import android.widget.Toast;
 
 
 public class main extends ActionBarActivity {
@@ -18,6 +19,11 @@ public class main extends ActionBarActivity {
         toolbar.setTitle("Mis series");
         setSupportActionBar(toolbar);
 
+    }
+
+    public void add(View v)
+    {
+        Toast.makeText(this,"Estoy escuchando",Toast.LENGTH_SHORT).show();
     }
 
     @Override
